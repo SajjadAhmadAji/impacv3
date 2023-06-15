@@ -1,14 +1,14 @@
 <template>
-    <div class="flex lg:h-screen md:h-screen sm:h-1/2 justify-center items-center bg-black lg:px-48 md:px-48 sm:px-24">
+    <div class="flex lg:h-screen md:h-screen sm:h-screen justify-center items-center bg-black lg:px-48 md:px-48 sm:px-24">
         <div class="text-center">
-            <h1><span class="font-Proxima-Nova-Xbold lg:text-5xl md:text-4xl sm:text-2xl  text-transparent bg-clip-text bg-gradient-to-br from-[#f9e027] to-[#39fb37]">Fortified Energy Centers:</span><span class="text-white font-Proxima-Nova-Light lg:text-5xl md:text-4xl sm:text-2xl"> Renewable Solar Energy Generation,
+            <h1><span class="font-Proxima-Nova-Xbold lg:text-5xl md:text-4xl sm:text-5xl  text-transparent bg-clip-text bg-gradient-to-br from-[#f9e027] to-[#39fb37]">Fortified Energy Centers:</span><span class="text-white font-Proxima-Nova-Light lg:text-5xl md:text-4xl sm:text-5xl"> Renewable Solar Energy Generation,
 Storage and Management in a Fortified Secure Structure</span></h1>
         </div>
     </div>
     <section class="bg-black lg:px-48 md:px-48 sm:px-24 py-24 h-80 flex justify-center items-center">
         <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4">
             <div>
-                <p class="text-white text-3xl w-9/12">
+                <p class="text-white text-3xl w-9/12 sm:text-center sm:w-full">
                     We provide renewable solar energy,
                     clean air, pure water, precision food,
                     shelter and AI-data capabilities for a
@@ -17,7 +17,7 @@ Storage and Management in a Fortified Secure Structure</span></h1>
             </div>
             <div class="flex justify-center items-center">
                 
-                <form class="w-6/12">   
+                <form class="w-6/12 sm:w-full">   
                     <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                     <div class="relative">
                         <input type="search" id="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-white rounded-full bg-black" placeholder="Enter Your Email" required>
@@ -30,8 +30,8 @@ Storage and Management in a Fortified Secure Structure</span></h1>
         </div>
 
     </section>
-    <section class="bg-black px-48 py-24 grid h-80 place-items-center">
-        <div class="text-center w-6/12">
+    <section class="bg-black px-48 py-24 sm:px-24 grid h-80 sm:h-auto place-items-center">
+        <div class="text-center w-6/12 sm:w-full">
             <p class="text-white font-Proxima-Nova-Light text-3xl pb-10">
             IMPAC is pioneering the path to an abundant future
             through Energy and Technology advancements. 
@@ -69,26 +69,26 @@ Storage and Management in a Fortified Secure Structure</span></h1>
             <h1 class="font-Proxima-Nova-Xbold text-white text-center text-3xl">DIVISIONS</h1>
         </div>
         <div class="container m-auto grid grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2">
-            <div class="h-96 flex items-center">
+            <div class="h-96 sm:h-48 flex items-center">
                 <img src="../assets/images/home/ENERGY.jpg" class="w-full h-full"  />
                 <div class="flex justify-center items-center">
                     <img src="" />
                     <h2 class="font-Proxima-Nova-Light text-white text-center text-3xl">ENERGY</h2>
                 </div>
             </div>
-            <div class="h-96">
+            <div class="h-96 sm:h-48">
                 <img src="../assets/images/home/FOOD.jpg" class="w-full h-full"  />
             </div>
-            <div class="h-96">
+            <div class="h-96 sm:h-48">
                 <img src="../assets/images/home/AIR.jpg" class="w-full h-full" />
             </div>
-            <div class="h-96">
+            <div class="h-96 sm:h-48">
                 <img src="../assets/images/home/WATER.jpg" class="w-full h-full" />
             </div>
-            <div class="h-96">
+            <div class="h-96 sm:h-48">
                 <img src="../assets/images/home/DATA.jpg" class="w-full h-full" />
             </div>
-            <div class="h-96">
+            <div class="h-96 sm:h-48">
                 <img  src="../assets/images/home/ESG_SDG.jpg" class="w-full h-full" />
             </div>
         </div>

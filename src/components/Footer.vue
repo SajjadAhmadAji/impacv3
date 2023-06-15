@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
     <footer class="bg-black lg:h-48 md:h-48 sm:h-96  lg:px-48 md:px-48 sm:px-24">
     <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 gap-4 lg:h-48 md:h-48 sm:h-96 text-white font-Proxima-Nova-Light">
-        <div class="flex lg:justify-end md:justify-end sm:justify-center lg:items-end md:items-end sm:items-center">
+        <div class="flex lg:justify-end md:justify-end sm:justify-center lg:items-end md:items-end sm:items-center lg:order-first md:order-first sm:order-last">
             <p>Copyright &copy 2023 IMPAC Inc. All rights reserved</p>
         </div>
         <div class="flex justify-center items-center">

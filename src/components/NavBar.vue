@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <img alt="IMPAC" class="logo" :src="image" width="125" height="125" />
           </RouterLink>
           <button class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" v-on:click="toggleNavbar()">
-            <i class="fas fa-bars"></i>
+            <i class="fa fa-bars"></i>
           </button>
         </div>
         <div v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center">
