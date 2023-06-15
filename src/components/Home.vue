@@ -1,25 +1,12 @@
 <template>
-    <div class="flex h-screen justify-center items-center bg-black px-48">
+    <div class="flex lg:h-screen md:h-screen sm:h-1/2 justify-center items-center bg-black lg:px-48 md:px-48 sm:px-24">
         <div class="text-center">
-            <h1><span class="font-Proxima-Nova-Xbold text-5xl md:text-4xl sm:text-2xl  text-transparent bg-clip-text bg-gradient-to-br from-[#f9e027] to-[#39fb37]">Fortified Energy Centers:</span><span class="text-white font-Proxima-Nova-Light text-5xl"> Renewable Solar Energy Generation,
+            <h1><span class="font-Proxima-Nova-Xbold lg:text-5xl md:text-4xl sm:text-2xl  text-transparent bg-clip-text bg-gradient-to-br from-[#f9e027] to-[#39fb37]">Fortified Energy Centers:</span><span class="text-white font-Proxima-Nova-Light lg:text-5xl md:text-4xl sm:text-2xl"> Renewable Solar Energy Generation,
 Storage and Management in a Fortified Secure Structure</span></h1>
         </div>
     </div>
-    <!-- <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-            <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
-                <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Powering innovation at <span class="font-extrabold">200,000+</span> companies worldwide</h2>
-                <p class="mb-4 font-light">Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>
-                <p class="mb-4 font-medium">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
-                <a href="#" class="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700">
-                    Learn more
-                    <svg class="ml-1 w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                </a>
-            </div>
-        </div>
-    </section> -->
-    <section class="bg-black px-48 py-24 h-80 flex justify-center items-center">
-        <div class="grid grid-cols-2 gap-4">
+    <section class="bg-black lg:px-48 md:px-48 sm:px-24 py-24 h-80 flex justify-center items-center">
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4">
             <div>
                 <p class="text-white text-3xl w-9/12">
                     We provide renewable solar energy,
@@ -64,20 +51,24 @@ Storage and Management in a Fortified Secure Structure</span></h1>
         </div>
         
     </section>
-    <section class="h-screen  w-full bg-FoodHome bg-cover bg-no-repeat grid grid-cols-1 gap-4 content-end py-10" >
-        <div class="w-full text-center">
-            <h1 class="text-white text-5xl font-Proxima-Nova-Xbold text-center">LIFE PLANTS</h1>
+    <section class="relative flex items-end justify-center h-screen overflow-hidden content-end px-10" >
+        <video class="absolute z-10 w-auto min-w-full min-h-full max-w-none" autoplay muted loop>
+         <source src="/src/assets/images/home/vertical tomatoes.mp4" type="video/mp4">
+        </video>
+        <div class="relative z-30 p-5 text-2xl text-white">
+            <div class="w-full text-center">
+                <h1 class="text-white text-5xl font-Proxima-Nova-Xbold text-center">LIFE PLANTS</h1>
+            </div>
+            <div class="w-full text-center">
+                <p class="text-white text-5xl font-Proxima-Nova-Light text-center">Clean Air. Pure Water. Precision Food. Shelter. Data.</p>
+            </div>
         </div>
-        <div class="w-full text-center">
-            <p class="text-white text-5xl font-Proxima-Nova-Light text-center">Clean Air. Pure Water. Precision Food. Shelter. Data.</p>
-        </div>
-        
     </section>
     <section class="h-screen w-full grid bg-black  p-10">
         <div class="container m-auto grid grid-cols-1">
             <h1 class="font-Proxima-Nova-Xbold text-white text-center text-3xl">DIVISIONS</h1>
         </div>
-        <div class="container m-auto grid grid-cols-3">
+        <div class="container m-auto grid grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2">
             <div class="h-96 flex items-center">
                 <img src="../assets/images/home/ENERGY.jpg" class="w-full h-full"  />
                 <div class="flex justify-center items-center">
