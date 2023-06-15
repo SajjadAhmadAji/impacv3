@@ -2,9 +2,9 @@
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 <template>
-    <footer class="bg-black h-48 px-48">
-    <div class="grid grid-cols-4 gap-4 h-48 text-white font-Proxima-Nova-Light">
-        <div class="flex justify-end items-end">
+    <footer class="bg-black lg:h-48 md:h-48 sm:h-96  lg:px-48 md:px-48 sm:px-24">
+    <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 gap-4 lg:h-48 md:h-48 sm:h-96 text-white font-Proxima-Nova-Light">
+        <div class="flex lg:justify-end md:justify-end sm:justify-center lg:items-end md:items-end sm:items-center">
             <p>Copyright &copy 2023 IMPAC Inc. All rights reserved</p>
         </div>
         <div class="flex justify-center items-center">

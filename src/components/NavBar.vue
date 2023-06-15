@@ -15,12 +15,12 @@ import { RouterLink, RouterView } from 'vue-router'
         <div v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center">
           <ul class="flex flex-col lg:flex-row list-none ml-auto">
             <li class="nav-item flex items-center">
-              <RouterLink class="px-3 py-2 flex items-center text-sm Proxima-Nova-Light text-white hover:opacity-75" to="/about">
+              <RouterLink class="px-3 py-2 flex items-center text-sm Proxima-Nova-Light text-white hover:opacity-75" to="/fortifiedEnergyCenter">
                 Fortified Energy Center
               </RouterLink>
             </li>
             <li class="nav-item flex items-center">
-                <RouterLink class="px-3 py-2 flex items-center text-sm Proxima-Nova-Light leading-snug text-white hover:opacity-75" to="/about">
+                <RouterLink class="px-3 py-2 flex items-center text-sm Proxima-Nova-Light leading-snug text-white hover:opacity-75" to="/LifePlant">
                     Life Plant
               </RouterLink>
             </li>
